@@ -1,0 +1,37 @@
+.table {
+  height: 300px;
+  width: 50%;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fb8f33;
+  color: #000;
+  font-weight: bold;
+}
+
+th {
+  background-color: #8372bc;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  border-color: #e8e6ed;
+  border-style: solid;
+}
+
+
+/* reponsive */
+
+/* @media */
