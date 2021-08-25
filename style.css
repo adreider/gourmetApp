@@ -227,7 +227,7 @@ section.hero p {
 MAIN
 ==================*/
 main {
-  margin: 0px 20px 0px 20px;
+  margin: 40px 20px 0px 20px;
 }
 
 .content-main {
@@ -319,8 +319,19 @@ main {
   align-items: center;
 }
 
+.background-color-avatar-header {
+  background: #8372bc;
+  border-radius: 100%;
+  width: 4.28rem;
+  height: 4.27rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .background-color-avatar {
-  background: #66ff4a;
+  background: #fac20a;
   border-radius: 100%;
   width: 4.28rem;
   height: 4.3rem;
@@ -523,12 +534,12 @@ FORM
     font-size: 23px;
     font-weight: bold;
     padding-left: 10px;
-}
+  }
 
-.list-inline-add span {
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  padding-left: 10px;
-}
+  .list-inline-add span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
 }
